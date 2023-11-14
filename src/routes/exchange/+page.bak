@@ -1,0 +1,19 @@
+<script>
+  import { Col, Container, Row } from "sveltestrap";
+  import BreadCrumb from "../../Components/Common/BreadCrumb.svelte";
+  import Counter from "../../Components/Common/CounterPage.svelte";
+
+  import MarketplaceItemDetails from "./MarketplaceItemDetails.svelte";
+</script>
+
+<svelte:head>
+  <title>CouchCade | Exchange</title>
+</svelte:head>
+<Counter />
+<div class="page-content">
+  <Container fluid>
+    <BreadCrumb title="Dashboard" pageTitle="Home" />
+    <Row class="project-wrapper">
+    </Row>
+  </Container>
+</div>
