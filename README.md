@@ -26,3 +26,9 @@
 - FilePond
 - ApexCharts.js
 - AXIOS
+
+## Terminal Commands
+- Run development environment
+    - npm run dev
+- Build production build
+    - npm run build
